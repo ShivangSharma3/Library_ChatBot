@@ -1,6 +1,6 @@
 # Library ChatBot
 
-A simple chatbot using Google Gemini API, built in Python.
+A simple chatbot using Google Gemini API, built in Python. cool
 
 ## Features
 - Uses Google Gemini (genai) for content generation
