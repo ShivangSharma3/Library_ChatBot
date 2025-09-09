@@ -1,6 +1,6 @@
 # Library ChatBot
 
-An intelligent library chatbot using Google Gemini AI with Supabase database integration for conversation history and library resource management.
+An intelligent library management chatbot using Google Gemini AI with Supabase database integration for comprehensive library operations.
 
 ## Features
 - 🤖 AI-powered responses using Google Gemini 2.0 Flash
