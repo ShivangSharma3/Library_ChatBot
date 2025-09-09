@@ -1,5 +1,11 @@
 # Library ChatBot
 
+**Contributors**
+- **Arjun** ([GitHub](https://github.com/arjunheregeek), [Portfolio](https://arjunai.engineer))
+  - Contributed Supabase functionality and project logic.
+- **Shivang** ([GitHub](https://github.com/ShivangSharma3))
+  - Built the chatbot and integrated it with the database.
+
 An intelligent library management chatbot that converts natural language queries into SQL queries for Supabase database operations. Built with Google Gemini AI and featuring a modular, scalable architecture.
 
 ## 🚀 Features
@@ -174,16 +180,6 @@ Library_ChatBot/
 ├── .gitignore                     # Git ignore rules
 └── README.md                      # This file
 ```
-
-## 👥 Contributors
-
-This project was developed by:
-
-- **Arjun** ([GitHub](https://github.com/arjunheregeek), [Portfolio](https://arjunai.engineer))
-  - Contributed Supabase functionality and project logic.
-
-- **Shivang** ([GitHub](https://github.com/ShivangSharma3))
-  - Built the chatbot and integrated it with the database.
 
 ## 🤝 Contributing
 
