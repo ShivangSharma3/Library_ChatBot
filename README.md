@@ -203,7 +203,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 4. **Query Not Understood**: Try rephrasing with more specific terms
 
 ### Debug Mode:
-The chatbot shows processing steps including query classification and SQL generation for debugging.
+The chatbot shows processing steps including query classification and SQL generation for debugging
 
 ## 🎯 Roadmap
 
