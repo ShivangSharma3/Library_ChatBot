@@ -98,7 +98,18 @@ class QueryProcessor:
         author_match = re.search(r'by\s+([a-zA-Z\s.]+?)(?:\s|$)', query_lower)
         if author_match:
             search_terms['author'] = author_match.group(1).strip()
-        
+
+        # Improved author name extraction logic
+        author_match = re.search(r'(?:by|author|written by)\s+([a-zA-Z\s.]+?)(?:\s|$)', query_lower)
+        if author_match:
+            search_terms['author'] = author_match.group(1).strip()
+
+        # Additional fallback for author names
+        if 'author' not in search_terms:
+            potential_author = re.search(r'([A-Z][a-z]+\s[A-Z][a-z]+)', query)
+            if potential_author:
+                search_terms['author'] = potential_author.group(1)
+
         # Extract ISBN numbers
         isbn_match = re.search(r'isbn\s*:?\s*(\d+)', query_lower)
         if isbn_match:
