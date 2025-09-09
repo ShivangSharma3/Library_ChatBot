@@ -127,3 +127,6 @@ cython_debug/
 
 # VS Code
 .vscode/
+
+# Database documentation (contains sensitive schema information)
+database_schema_documentation.txt
